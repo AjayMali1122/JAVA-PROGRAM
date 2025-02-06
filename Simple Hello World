@@ -1,0 +1,13 @@
+public class Ajay
+{
+  public static void main(String args[])
+{
+
+  System.out.println("hello ajay");
+  System.out.println("hello ajay111");
+  System.out.println("hello ajay222");
+
+
+}
+
+}
