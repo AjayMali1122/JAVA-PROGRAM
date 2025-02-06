@@ -1,0 +1,43 @@
+public class Allmethod
+{
+  // simple method
+public void m1()
+{
+System.out.println("simple m1 method");
+
+}
+
+//parameterized method
+public void m2(int a,float b)
+{
+System.out.println("simple parameter method");
+
+}
+
+//return method
+public int m3()
+{
+System.out.println("return type method");
+return 2;
+}
+
+//return with parameterized method
+public int m4(int a)
+{
+ System.out.println("return with parameter method");
+ return 109;
+
+
+}
+ public static void main(String args[])
+{
+ Allmethod z = new Allmethod();
+ z.m1();
+ z.m2(2,2.3f);
+ System.out.println(z.m3());
+ System.out.println(z.m4('b'));
+
+
+}
+
+}
