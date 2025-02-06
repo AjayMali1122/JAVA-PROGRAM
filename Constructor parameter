@@ -1,0 +1,34 @@
+public class Student1
+{
+ String name;
+ int id;
+ long mobno;
+ String addr;
+ char div;
+
+public Student1(String n,int i,long l,String ad,char b) \\parameter constructor
+{
+ name=n;
+ id=i;
+ mobno=l;
+ addr=ad;
+ div=b;
+System.out.println(name);
+System.out.println(id);
+System.out.println(mobno);
+System.out.println(addr);
+System.out.println(div);
+
+}
+public static void main(String args[])
+{
+ Student1 c = new Student1("ram",122,7798631788l,"1234pune",'M');
+ System.out.println();
+ c.name="python";
+  System.out.println(c.name);
+ Student1 c1 = new Student1("ram",122,7798631788l,"1234pune",'M');
+  System.out.println(c.name);
+  
+}
+
+}
