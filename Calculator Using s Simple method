@@ -1,0 +1,68 @@
+public class F
+{
+  public void add() \\method
+  {
+
+    int a=10,b=20,c;
+    c=a+b;
+ System.out.println("Addition"+c);
+
+}
+}
+
+public class G
+{
+  public void sub()
+  {
+
+    int a=10,b=20,c;
+    c=a-b;
+ System.out.println("subrication "+c);
+
+}
+}
+
+public class H
+{
+  public void mul()
+  {
+
+    int a=10,b=20,c;
+    c=a*b;
+ System.out.println("Multipication  "+c);
+}
+
+}
+
+
+public class J
+{
+  public void div()
+  {
+
+    int a=50,b=10,c;
+    c=a/b;
+ System.out.println("Division  "+c);
+
+}
+
+}
+
+
+public class Cal
+{
+ public static void main(String args[])
+{
+ 
+F z = new F(); \\object creation
+G x = new G();
+H c = new H();
+J v = new J();
+
+z.add(); // method call
+x.sub();
+c.mul();
+v.div();
+
+}
+}
