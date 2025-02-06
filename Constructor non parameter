@@ -1,0 +1,28 @@
+public class Student
+{
+  String name;
+  int id;
+  long mobno;
+  String add;
+  
+public Student() \\Constructor 
+{
+ name="ram";
+ id=101;
+ mobno=1234567891l;
+ add="pune";
+
+System.out.println(name);
+System.out.println(id);
+System.out.println(mobno);
+System.out.println(add);
+
+}
+public static void main(String args[])
+{
+ Student s = new Student();
+ System.out.println();
+ Student s1 = new Student();
+}
+
+}
