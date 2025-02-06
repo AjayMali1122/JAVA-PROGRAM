@@ -1,0 +1,32 @@
+public class E
+{
+
+int a;
+float f;
+String name;
+char c;
+boolean b;
+byte e;
+short s;
+double d;
+long l;
+E q;
+
+public static void main(String args[])
+{
+E z = new E();
+System.out.println(z.a);
+System.out.println(z.f);
+System.out.println(z.name);
+System.out.println(z.c);
+System.out.println(z.b);
+System.out.println(z.e);
+System.out.println(z.s);
+System.out.println(z.d);
+System.out.println(z.l);
+System.out.println(z.q);
+
+
+}
+
+}
