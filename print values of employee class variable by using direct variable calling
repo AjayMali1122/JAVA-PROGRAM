@@ -1,0 +1,24 @@
+public class Empy
+{
+
+  int empid;
+  String empname;
+  float empsalary;
+  long empno;
+
+public static void main(String args[])
+{
+
+Empy a = new Empy();
+a.empid=101;
+a.empname="java";
+a.empsalary=250.4f;
+a.empno=7798631788l;
+
+System.out.println(a.empid);
+System.out.println(a.empname);
+System.out.println(a.empsalary);
+System.out.println(a.empno);
+
+}
+}
