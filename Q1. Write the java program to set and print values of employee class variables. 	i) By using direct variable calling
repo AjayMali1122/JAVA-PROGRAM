@@ -1,0 +1,22 @@
+Q1. Write the java program to set and print values of employee class variables.
+	i) By using direct variable calling
+
+public class U
+{
+  int empid=101;
+  String empname="ajay";
+  float empsalary=234.4f;
+  long empno=7798631788l;
+
+
+public static void main(String args[])
+
+{
+U a = new U();
+System.out.println(a.empid);
+System.out.println(a.empname);
+System.out.println(a.empsalary);
+System.out.println(a.empno);
+
+}
+}
