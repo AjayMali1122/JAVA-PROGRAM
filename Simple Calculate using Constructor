@@ -1,0 +1,42 @@
+public class cal1234
+{
+ int c;
+
+public cal1234()
+{
+int a=10,b=20,c;
+c=a+b;
+System.out.println(c);
+
+}
+public cal1234(int ea,int eb )
+{
+c=ea-eb;
+System.out.println("subration  "+c);
+
+}
+public cal1234(String s,int a,int b)
+{
+c=a*b;
+System.out.println("mul"+c);
+
+}
+
+public cal1234(float b,float a)
+{
+float z=a/b;
+System.out.println(z);
+
+}
+
+
+public static void main(String args[])
+{
+cal1234 a = new cal1234();
+cal1234 a1 = new cal1234(10,20);
+cal1234 a3 = new cal1234(11.1f,12.1f );
+cal1234 a2 = new cal1234("aa",10,20);
+
+}
+}
+
