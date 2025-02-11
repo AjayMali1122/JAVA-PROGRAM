@@ -1,0 +1,24 @@
+public class S
+{
+
+// global non static variable
+int a=10;
+int b=20;
+int c;
+
+// global static variable
+static int x=20;
+static int y = 50;
+static int z;
+
+public static void main(String args[])
+{
+
+S g = new S();
+g.c=g.a+g.b;
+System.out.println(g.c);
+
+z = x+y;
+System.out.println(z);
+}
+}
