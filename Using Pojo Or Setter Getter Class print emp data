@@ -1,0 +1,56 @@
+public class Emp12
+{
+  private int id;
+  private String name;
+  long mobno;
+
+public int getId()
+{
+return id;
+
+}
+
+public void setId(int id)
+{
+this.id=id;
+
+}
+public String getName()
+{
+return name;
+
+}
+
+public void setName(String name)
+{
+this.name=name;
+
+}
+public long getMobno()
+{
+return mobno;
+
+}
+
+public void setMobno(long mobno)
+{
+this.mobno=mobno;
+                                       //use setter getter program we create two class one is simple class and secound is main method
+}
+}                                     //main methid same class madhe nahi ghet aapan setter getter madhe
+
+public class Test123
+{
+ public static void main(String args[])
+{
+Emp12 a = new Emp12();
+a.setId(10);
+a.setName("ajay");
+a.setMobno(7798631788l);
+
+System.out.println(a.getId());
+System.out.println(a.getName());
+System.out.println(a.getMobno());
+}
+
+}
