@@ -1,0 +1,11 @@
+public class Example {
+    // Method definition
+    public static void greet() {
+        System.out.println("Hello, Java!");
+    }
+
+    public static void main(String[] args) {
+        greet(); //Method call
+        greet(); // Method call
+    }
+}
