@@ -1,0 +1,103 @@
+public class Employee                                 //class create
+{
+int id;                                              //global varible
+String name;
+long mob;
+String addr;
+double salary;
+
+public Employee()                                       //1 Const non para 
+{
+System.out.println("Const 1");
+System.out.println();                                   //new line space
+Employee e1 = new Employee(101,"ajay");
+
+
+}
+
+public Employee(int i ,String n)                         //2 Const para
+{
+id=i;
+name=n;
+System.out.println("const 2");
+System.out.println(id);
+System.out.println(name);
+System.out.println();                                   //new line space
+
+Employee e2 = new Employee(77986317788l,"pune",2222.4d);
+}
+
+public Employee(long m ,String a,double d)              //3 Const para
+{
+System.out.println("Const 3");
+
+mob= m;
+addr= a;
+salary =d;
+System.out.println(mob);
+System.out.println(addr);
+System.out.println(salary);
+System.out.println();                                   //new line space
+Employee e3 = new Employee(1);
+
+}
+
+public Employee(int d)                               //4 Const para
+{
+System.out.println("const 4");
+System.out.println();                       
+Employee e4 = new Employee('m');
+
+}
+
+public Employee(char c)                             //5 Const parameter
+{
+System.out.println("const 5");
+m1();
+}
+
+public void m1()
+{
+System.out.println("m1........method");    //1 method simple
+m2(10);
+
+}
+
+public void m2(int a)
+{
+int b=a;
+System.out.println("m2........method "+b);  //2 method simple para
+System.out.println(m3(5,2));
+
+}
+
+public int m3( int a,int b)
+{
+int add=a+b;
+System.out.println("m3........method");   //3 method return with para
+System.out.println(m4());
+return add;
+
+}
+public int m4()
+{
+System.out.println("m4........method");    //4 method simple return
+m5();
+return 12;
+
+}
+public void m5()
+{
+System.out.println("m5........method");   //5 method simple
+
+}
+
+}
+public class Detail
+{
+public static void main(String args[])
+{
+Employee e = new Employee();
+
+}
+}
