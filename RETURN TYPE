@@ -1,0 +1,31 @@
+public class Focus                 //class 1
+{
+int rollno=10;
+String name="ajay";
+long mobno=7798631788l;
+
+}
+
+public class Focus123               //class 2
+{
+public Focus m1()                  //method
+{
+Focus f = new Focus();
+System.out.println("focus");
+return f;
+}
+public static void main(String args[])    //main method
+{
+Focus123 s = new Focus123();
+//s.m1();
+//System.out.println(s.m1());
+Focus w=s.m1();
+System.out.println(w);
+
+System.out.println(w.rollno);
+System.out.println(w.name);
+System.out.println(w.mobno);
+
+}
+
+}
