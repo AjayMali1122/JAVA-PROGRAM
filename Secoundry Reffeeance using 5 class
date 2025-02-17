@@ -1,0 +1,209 @@
+public class Dm                                           //class 1
+{
+String dname;
+long dmobno;
+double dsalary;
+Tahashildar t1;
+Sarpanch srp;
+
+public String getDname()
+{
+return dname;
+
+}
+public void setDname(String dname)
+{
+this.dname=dname;
+}
+
+public long getDmobno()
+{
+return dmobno;
+
+}
+public void setDmobno(long dmobno)
+{
+this.dmobno=dmobno;
+}
+
+public double getDsalary()
+{
+return dsalary;
+
+}
+public void setDsalary(double dsalary)
+{
+this.dsalary=dsalary;
+}
+
+public Tahashildar getT1()
+{
+return t1;
+
+}
+public void setT1(Tahashildar t1)
+{
+this.t1=t1;
+}
+
+public Sarpanch getSrp ()
+{
+return srp;
+
+}
+public void setSarpanch(Sarpanch srp)
+{
+this.srp=srp;
+}
+
+}
+
+public class Tahashildar                          //class 2
+{
+String tname;
+long tmobno;
+double tsalary;
+
+public String getTname()
+{
+return tname;
+}
+public void setTname(String tname)
+{
+this.tname=tname;
+}
+
+public long getTmobno()
+{
+return tmobno;
+}
+public void setTmobno(long tmobno)
+{
+this.tmobno=tmobno;
+}
+
+public double getTsalary()
+{
+return tsalary;
+}
+public void setTsalary(double tsalary)
+{
+this.tsalary=tsalary;
+}
+}
+
+public class Sarpanch                            //class 3
+{
+String sname;
+long smobno;
+double ssalary;
+Address adr;
+
+public String getSname()
+{
+return sname;
+}
+public void setSname(String sname)
+{
+this.sname=sname;
+}
+
+public long getSmobno()
+{
+return smobno;
+}
+public void setSmobno(long smobno)
+{
+this.smobno=smobno;
+}
+
+public double getSsalary()
+{
+return ssalary;
+}
+public void setSsalary(double ssalary)
+{
+this.ssalary=ssalary;
+}
+
+public Address getAdr()
+{
+return adr;
+}
+public void setAdr(Address adr)
+{
+this.adr=adr;
+}
+
+}
+
+public class Address                    //class 4
+{
+int pincode;
+String landmark;
+
+public int getPincode()
+{
+return pincode;
+}
+public void setPincode(int pincode)
+{
+this.pincode=pincode;
+
+}
+
+public String getLandmark()
+{
+return landmark;
+}
+public void setLandmark(String landmark)
+{
+this.landmark=landmark;
+
+}
+}
+
+public class Test                                      //class 5
+{
+public static void main(String args[])
+{
+Address a =new Address();
+a.setPincode(424206);
+a.setLandmark("near by water tank");
+
+
+Tahashildar t= new Tahashildar();
+t.setTname("akshay mali");
+t.setTmobno(9552448613l);
+t.setTsalary(526.1d);
+
+
+Sarpanch s = new Sarpanch();
+s.setSname("prasad mali");
+s.setSmobno(9673362971l);
+s.setSsalary(4623.7d);
+// s.setAdr(a);
+
+Dm d = new Dm();
+d.setDname("ajay mali");
+d.setDmobno(77986317788l);
+d.setDsalary(123d);
+
+System.out.println(d.getDname());
+System.out.println(d.getDmobno());
+System.out.println(d.getDsalary());
+
+System.out.println(t.getTname());
+System.out.println(t.getTmobno());
+System.out.println(t.getTsalary());
+
+System.out.println(s.getSname());
+System.out.println(s.getSmobno());
+System.out.println(s.getSsalary());
+// System.out.println(s.getAdr().getPincode());
+// System.out.println(s.getAdr().getLandmark());
+System.out.println(a.getPincode());
+System.out.println(a.getLandmark());
+
+}
+}
