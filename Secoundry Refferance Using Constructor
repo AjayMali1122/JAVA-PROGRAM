@@ -1,0 +1,47 @@
+public class Address                                            //class 1
+{
+ int pincode;
+String landmark;
+
+public Address(int pincode,String landmark)                     //constructo
+{
+this.pincode=pincode;
+this.landmark=landmark;
+}
+
+}
+
+public class Student                                    //class 2
+{
+int rollno;
+String name;
+Address adr;
+
+public Student(int rollno,String name,Address adr)             //construcor
+{
+this.rollno=rollno;
+this.name=name;
+this.adr=adr;
+
+}
+
+}
+
+public class Test                                                     //class 3
+{
+public static void main(String args[])
+{
+ Address a = new Address(424206,"pune distic");                       //obj creation constructo
+ Student s = new Student(102,"Ajay",a);
+
+System.out.println(s.adr.pincode);
+System.out.println(s.adr.landmark);
+
+System.out.println();
+
+System.out.println(s.rollno);
+System.out.println(s.name);
+
+}
+
+}
